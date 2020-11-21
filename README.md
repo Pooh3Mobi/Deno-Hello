@@ -10,7 +10,7 @@ docker build ./ -t deno-helloworld
 ## Run the Container
 
 ```
-docker container run --rm -p 4040:4040 --mount src=`pwd`,target=/server,type=bind --disable-content-trust deno-hello-docker
+docker container run --rm -p 4040:4040 --mount src=`pwd`,target=/server,type=bind --disable-content-trust deno-helloworld
 ```
 
 ## Check If It's Installed Correctly
